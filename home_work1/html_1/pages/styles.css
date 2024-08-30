@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #814823;
+}
+
+body {
+    background-color: rgba(241, 196, 183, 0.89);
+}
+
+.image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
