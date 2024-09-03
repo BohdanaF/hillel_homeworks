@@ -5,4 +5,9 @@
 
 .content {
     margin: 5px;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
 }

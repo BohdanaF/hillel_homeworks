@@ -11,7 +11,11 @@
     justify-content: center;
 }
 
-div.image-wrapper > img {
+div.image-wrapper > a > img {
+    max-width: 100%;
+}
+
+div.image-wrapper > a {
     max-width: 100%;
 }
 

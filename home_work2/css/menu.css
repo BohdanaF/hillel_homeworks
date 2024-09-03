@@ -5,6 +5,16 @@
     width: 60px;
 }
 .button {
-    width: 80px;
-    margin: 5px;
+
+    padding: 5px;
+    border-bottom: 1px solid #c80c28;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &.active {
+        background-color: rgba(241, 196, 183, 0.89);
+    }
 }

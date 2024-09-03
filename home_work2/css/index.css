@@ -1,3 +1,14 @@
 body {
     min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #9e091b;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
 }
