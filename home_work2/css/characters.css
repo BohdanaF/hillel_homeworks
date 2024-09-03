@@ -1,0 +1,20 @@
+.character {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.image-wrapper {
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.image-wrapper > img {
+    max-width: 100%;
+}
+
+p {
+    margin: 10px;
+}
