@@ -1,11 +1,15 @@
 .menu {
     background-color: lavenderblush;
 }
+
 .icon {
     width: 60px;
+    @media only screen and (max-width: 768px) {
+ width: 15vw;
+    }
 }
-.button {
 
+.button {
     padding: 5px;
     border-bottom: 1px solid #c80c28;
     display: flex;
@@ -17,4 +21,23 @@
     &.active {
         background-color: rgba(241, 196, 183, 0.89);
     }
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        min-height: 100px;
+        justify-content: space-around;
+        border-bottom: none;
+    }
+}
+
+.go-up {
+    background-color: rgb(220, 148, 148);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    padding: 10px 15px 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
 }

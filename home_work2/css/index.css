@@ -6,7 +6,11 @@ body {
 a {
     text-decoration: none;
     color: #9e091b;
+    @media only screen and (max-width: 768px) {
+        width: inherit;
+    }
 }
+
 
 h1 {
     width: 100%;

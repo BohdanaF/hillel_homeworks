@@ -1,13 +1,24 @@
 .page-wrapper {
     display: flex;
     min-height: 100vh;
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .content {
-    margin: 5px;
+    padding: 10px;
     width: 85%;
+    @media only screen and (max-width: 768px) {
+        width: 95%;
+    }
 }
 
 .menu {
     width: 15%;
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 }
