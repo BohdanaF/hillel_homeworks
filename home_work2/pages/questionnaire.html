@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="../css/form.css">
+
+</head>
+<body>
+<form method="post" action="https://fom.in.ua/echo">
+
+    <fieldset>
+
+        <legend>Контактна інформація</legend>
+        <div>
+            <div class="contact">
+                <label for="username">
+                    Імʼя
+                </label>
+
+                <input type="text" name="username" required="required" maxlength="14" id="username">
+            </div>
+            <div class="contact">
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input type="email" name="email" required="required" placeholder="user@gmail.com" id="email">
+            </div>
+            <div class="contact">
+                <label for="phone">
+                    Номер телефону
+                </label>
+
+                <input type="tel" name="phone" id="phone" placeholder="+380 11 222 33 44">
+            </div>
+            <div class="feedback">
+                <input type="checkbox" checked="checked" name="feedback" value="feedback" id="feedback"/>
+                <label for="feedback">Отримувати оновлення</label>
+
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Питання</legend>
+
+        <div>
+            <label for="quantity">
+                Наскільки цікава інформація на сайті?
+            </label>
+            <input type="number" class="quantity" name="quantity" id="quantity" min="0" max="5" placeholder="0-5">
+        </div>
+
+
+        <label>
+            Який персонаж подобається найбільше?
+        </label>
+        <br>
+
+        <div class="checkbox">
+            <input type="checkbox" id="character1" name="character1" value="Finn the Human">
+            <label for="character1">Фін Людина</label>
+            <br>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="character2" name="character2" value="Jake the Dog">
+            <label for="character2">Джейк Пес</label>
+            <br>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="character3" name="character3" value="Princess Bubblegum">
+            <label for="character3">Принцеса Баблгум</label>
+            <br>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="character4" name="character4" value="Ice King">
+            <label for="character4">Льодяний король</label>
+            <br>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="character5" name="character5" value="Marceline the Vampire Queen">
+            <label for="character5">Королева вампірів Марселін</label>
+            <br>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="character6" name="character6" value="The Lich King">
+            <label for="character6">Король-ліч </label>
+        </div>
+
+
+        <div>
+            <label for="fdbkarea">
+                Коментар
+            </label>
+            <textarea id="fdbkarea" rows="4" maxlength="1000"></textarea>
+        </div>
+    </fieldset>
+    <input type="submit" class="button" value="Відправити">
+</form>
+
+</body>
+</html>

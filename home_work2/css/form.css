@@ -1,0 +1,50 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    width: auto;
+    border: 1px solid #c80c28;
+    border-radius: 4px;
+    background-color: lavenderblush;
+}
+
+legend {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input, textarea {
+    border: 2px solid #c80c28;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact {
+    width: 90%;
+    padding: 10px;
+}
+
+.quantity {
+    width: 15%;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.button {
+    background-color: #dc9494;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    padding: 10px;
+}
