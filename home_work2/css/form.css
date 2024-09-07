@@ -1,9 +1,10 @@
-div {
+.form-item, .contact, .fdbkarea{
     display: flex;
     flex-direction: column;
 }
 
 fieldset {
+    margin: 10px 0;
     width: auto;
     border: 1px solid #c80c28;
     border-radius: 4px;
@@ -38,8 +39,9 @@ input, textarea {
     margin: 5px;
 }
 
-.button {
+.submit-button {
     background-color: #dc9494;
+    cursor: pointer;
 }
 
 .feedback {

@@ -4,16 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Questionnaire</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
     <link rel="stylesheet" href="../css/form.css">
 
 </head>
 <body>
+<div class="page-wrapper">
+<div class="menu">
+    <a href="../index.html" class="menu-item" id="top">
+        <img src="../icons/home.png" alt="main page" class="icon"/>
+        Головна сторінка
+    </a>
+
+    <a href="history_of_creation.html" class="menu-item">
+        <img src="../icons/history.webp" alt="history of creation" class="icon"/>Історія
+        створення
+    </a>
+
+    <a href="main_characters.html" class="menu-item">
+        <img src="../icons/characters.png" alt="characters" class="icon"/>
+        Персонажі
+    </a>
+
+    <a href="plot.html" class="menu-item">
+        <img src="../icons/plot.png" alt="plot" class="icon"/>
+        Сюжет
+    </a>
+
+    <a href="gallery.html" class="menu-item">
+        <img src="../icons/gallery.png" alt="gallery" class="icon"/>
+        Галерея
+    </a>
+
+    <a href="questionnaire.html" class="menu-item active">
+        <img src="../icons/questionnaire.png" alt="questionnaire" class="icon"/>
+        Анкета
+    </a>
+</div>
+
+<div class="content">
+
+    <h1>
+        Анкета
+    </h1>
+
 <form method="post" action="https://fom.in.ua/echo">
 
     <fieldset>
 
         <legend>Контактна інформація</legend>
-        <div>
+        <div class="form-item">
             <div class="contact">
                 <label for="username">
                     Імʼя
@@ -91,15 +134,17 @@
         </div>
 
 
-        <div>
+        <div class="fdbkarea">
             <label for="fdbkarea">
                 Коментар
             </label>
             <textarea id="fdbkarea" rows="4" maxlength="1000"></textarea>
         </div>
     </fieldset>
-    <input type="submit" class="button" value="Відправити">
+    <input type="submit" class="submit-button" value="Відправити">
 </form>
 
+</div>
+</div>
 </body>
 </html>
